@@ -10,8 +10,9 @@
         <Button x:Name="bench" Content="бенч" HorizontalAlignment="Left" Margin="35,320,0,0" VerticalAlignment="Top" Width="301" Height="82" Click="bench_Click"/>
         <TextBlock x:Name="soup" HorizontalAlignment="Left" Margin="10,22,0,0" TextWrapping="Wrap" Text="очи" VerticalAlignment="Top" Width="755"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="treath" VerticalAlignment="Top"/>
-        <TextBlock x:Name="MV" HorizontalAlignment="Left" Margin="66,195,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="MV" HorizontalAlignment="Left" Margin="66,124,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
         <TextBox x:Name="Vibor" HorizontalAlignment="Left" Margin="66,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="Sbross" Content="Button" HorizontalAlignment="Left" Margin="447,320,0,0" VerticalAlignment="Top" Height="82" Width="138" Click="Sbross_Click"/>
+        <Button x:Name="Sbross" Content="STOP" HorizontalAlignment="Left" Margin="447,320,0,0" VerticalAlignment="Top" Height="82" Width="138" Click="Sbross_Click"/>
+        <TextBlock x:Name="TimeOC" HorizontalAlignment="Left" Margin="41,256,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" FontFamily="Arial Black" Foreground="Red"/>
     </Grid>
 </Window>
