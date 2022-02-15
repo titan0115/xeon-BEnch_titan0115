@@ -1,0 +1,17 @@
+﻿<Window x:Class="xeon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xeon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bench" Content="бенч" HorizontalAlignment="Left" Margin="35,320,0,0" VerticalAlignment="Top" Width="301" Height="82" Click="bench_Click"/>
+        <TextBlock x:Name="soup" HorizontalAlignment="Left" Margin="10,22,0,0" TextWrapping="Wrap" Text="очи" VerticalAlignment="Top" Width="755"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,90,0,0" TextWrapping="Wrap" Text="treath" VerticalAlignment="Top"/>
+        <TextBlock x:Name="MV" HorizontalAlignment="Left" Margin="66,195,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="Vibor" HorizontalAlignment="Left" Margin="66,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Sbross" Content="Button" HorizontalAlignment="Left" Margin="447,320,0,0" VerticalAlignment="Top" Height="82" Width="138" Click="Sbross_Click"/>
+    </Grid>
+</Window>
