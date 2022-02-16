@@ -30,7 +30,7 @@ namespace xeon
          int TIMES = 0; //для таймера
          double DDrun = 0;
          double POINTS = 0;
-
+         long LN = 0;
 
 
         private void bench_Click(object sender, RoutedEventArgs e) //основная грязь
@@ -44,16 +44,15 @@ namespace xeon
             DDrun = 0;
             POINTS = 0;
 
-
             TiMers();
-            
-
+            PT();
             while (i != j)
             {
                 i++;
                 DDoub();
             }
             
+
         }
 
 
@@ -66,8 +65,10 @@ namespace xeon
 
                     
                     DDrun = (DDrun * Math.PI) / 2;
+                    LN++;
+                    //soup.Text = LN.ToString();
 
-                    
+
 
 
                     if (block == 1)
@@ -77,6 +78,28 @@ namespace xeon
                 }
             });
         }
+        public async void PT()  // double
+        {
+            await Task.Run(() =>
+            {
+                while (true)
+                {
+
+
+                    
+                    soup.Text = LN.ToString();
+
+
+
+
+                    if (block == 1)
+                    {
+                        break;
+                    }
+                }
+            });
+        }
+
 
         async void LLong()  // long
         {
@@ -115,6 +138,8 @@ namespace xeon
                 }
             
         }
+
+
 
         private void Sbross_Click(object sender, RoutedEventArgs e)
         {
